@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+      .back {
+        display: flex;
+        flex-direction: row;
+       
+        width: 100%;
+        height: 100%;
+      }
+      .side {
+        display: flex;
+        flex-direction: column;
+      }
+      h6 {
+        padding: 15px;
+        background-color: #ff4e4e;
+        border-radius: 50px;
+        text-align: center;
+      }
+      #btn {
+        width: 100px;
+        color: white;
+        font-size: 20px;
+      }
+      .fas {
+        display: none;
+      }
+      h1 {
+        font-family: "Abril Fatface", cursive;
+        font-weight: 800;
+      }
+      .head {
+        font-family: "Abril Fatface", cursive;
+        font-size: 60px;
+        font-weight: 500;
+        margin-left: 50px;
+        margin-top: 80px;
+      }
+      .side-bar {
+        
+        width: 150px;
+        margin-left: 40px;
+        display: flex;
+        flex-direction: column;
+        position: static;
+      }
+      #list {
+        color: #a6a6a6;
+        font-weight: 400;
+        font-size: 15px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      #list:hover {
+        text-decoration: line-through #fd4e4e;
+      }
+      .para {
+        margin-top: 80px;
+        position: relative;
+        margin-left:-200px;
+      }
+      .pg {
+        font-size: 18px;
+        font-weight: 500;
+        color: #a3a3a3;
+      }
+
+      #animation {
+        width: 60px;
+        height: 3px;
+        background-color: red;
+        animation-name: line;
+
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        animation-direction: alternate;
+      }
+      @keyframes line {
+        0% {
+          background-color: red;
+          left: 0px;
+          top: 0px;
+        }
+
+        100% {
+          background-color: orange;
+          left: 0px;
+          bottom: 0px;
+        }
+      }.first:hover {
+        background-color: rgb(30, 210, 90);
+      }
+      .mix:hover {
+        background-color: cyan;
+      }
+      .third:hover {
+        background-color: gold;
+      }
+      .four:hover {
+        background-color: greenyellow;
+      }
+      .five:hover {
+        background-color: pink;
+      }
+      .first {
+        box-sizing: border-box;
+        background-color: white;
+        border-radius: 25px;
+        padding: 15px;
+        align-items: center;
+        margin-left: 50px;
+        box-shadow: 10px 20px 22px lightgray;
+      }
+      .mix {
+        box-sizing: border-box;
+        background-color: white;
+        border-radius: 25px;
+        padding: 15px;
+        align-items: center;
+        margin-left: 30px;
+        box-shadow: 10px 20px 22px lightgray;
+      }
+      .third {
+        box-sizing: border-box;
+        background-color: white;
+        border-radius: 25px;
+        padding: 15px;
+        align-items: center;
+        margin-left: 30px;
+        box-shadow: 10px 20px 22px lightgray;
+      }
+      .four{
+        box-sizing: border-box;
+        background-color: white;
+        border-radius: 25px;
+        padding: 15px;
+        align-items: center;
+        margin-left: 30px;
+        box-shadow: 10px 20px 22px lightgray;
+      }
+      .five {
+        box-sizing: border-box;
+        background-color:white;
+        border-radius: 25px;
+        padding: 15px;
+        align-items: center;
+        margin-left: 30px;
+        box-shadow: 10px 20px 22px lightgray;
+      }
+      .cus {
+        font-size: 15px;
+        font-weight: 1000;
+        margin-left: 15px;
+      }
+      .mec {
+        border-radius: 50%;
+        padding: 5px;
+        margin-top: 10px;
+        margin-left: 10px;
+      }
+      .sub {
+        display: flex;
+        box-sizing: border-box;
+        box-shadow: 70px;
+        margin-top: 50px;
+      }
+      .top {
+        display: flex;
+        flex-direction: column;
+      }
+      .second {
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        position: static;
+      }
+      @media  screen and (max-width:786px) {
+          .back{
+              display:flex;
+              flex-direction: column;
+              
+
+          }
+          .side-bar{
+              display:flex;
+              flex-direction: row;
+              justify-content:space-between;
+              align-items: center;
+          }
+          .lore{
+              align-items: center;
+              margin-left: 250px;
+              font-size: 40px;
+              
+          }
+          .menu{
+              display: inline;
+              color: brown;
+              position: relative;
+              font-size: 50px;
+              
+          }
+        
+            .fa-shopping-cart{
+            color: #FC7979;
+              display: inline;
+              margin-left: 200px;
+              font-size: 50px;
+             
+          }
+          .side{
+              display: none;
+          }
+          
+          #cart{
+              display:none;
+          }
+          span{
+              display: none;
+          }
+          .sub{
+              display: block;
+
+          }
+          .five{
+              display: none;
+          }
+          .first{
+              background-color: #fafafa;
+              margin-right:400px;
+              margin-top:20px;
+              margin-left:190px;
+              padding:20px 30px;
+          }
+          
+         .mix{ margin-left:390px;
+            background-color: #fafafa;
+            margin-top:-200px;
+            padding:20px;
+            margin-right:190px;
+            
+         }
+          .third{
+              margin-top:10px;
+              background-color: #fafafa;
+              margin-right:400px;
+              margin-left:190px;
+
+          }
+          .four{
+            margin-top:-190px;
+              margin-left:390px;
+              margin-right:190px;
+            background-color: #fafafa;
+            
+              
+          }
+          .para{
+              margin-top:900px;
+              margin-right:-1000px;
+              margin-left:-650px;
+          }
+          .pg{
+              font-size: 30px;
+          }
+          .mec{
+              text-align: center;
+          }
+          .top{
+              margin-top: 50px;
+          }
+          
+          
+      }
+      
